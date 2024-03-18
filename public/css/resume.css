@@ -1,0 +1,90 @@
+@import 'tw.css';
+
+.resume-main {
+  background-color: #082032;
+}
+.info-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+
+  position: relative;
+  .info-title {
+    width: 35%;
+  }
+}
+.info-block {
+  background-color: #faad02;
+  width: 35%;
+
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.info {
+  padding: 3rem 3rem;
+  p,
+  li {
+    margin-left: 5%;
+  }
+}
+.floating-square {
+  width: 30px;
+  height: 30px;
+  background-color: #334756;
+  position: absolute;
+  transform: translate(-15px, 10px);
+}
+.resume-title {
+  .floating-square {
+    margin-top: 5rem;
+    transform: translate(-45px, 10px);
+  }
+}
+.white-spacee {
+  padding-top: 5vh;
+}
+@media only screen and (max-width: 650px) {
+  .info-block {
+    width: 75% !important;
+  }
+  .resume-title {
+    .floating-square {
+      width: 20px;
+      height: 20px;
+      transform: translate(-50px, 5px);
+    }
+  }
+  .info-title {
+    margin-left: -80vw;
+
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .info-block {
+    width: 75% !important;
+  }
+  .resume-title {
+    .floating-square {
+      width: 20px;
+      height: 20px;
+      transform: translate(-30px, 5px);
+    }
+  }
+  .info-title {
+    margin-left: -5vw !important;
+
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .info-block {
+    width: 50%;
+  }
+  .info-title {
+    margin-left: 20vw;
+
+    width: 70% !important;
+  }
+}

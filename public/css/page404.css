@@ -1,0 +1,11 @@
+@import 'tw.css';
+.page404 {
+  background-image: url(../static/buh.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-stroke {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
