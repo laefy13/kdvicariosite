@@ -68,14 +68,14 @@ export default function Page() {
                   }`}
                 >
                   <Image
-                    src="https://kdvicariostorage.blob.core.windows.net/images/karlos.png?sp=r&st=2024-03-10T11:02:13Z&se=2026-06-17T19:02:13Z&spr=https&sv=2022-11-02&sr=b&sig=ROnc69l0RU4kCDCMbXac41gfCeFtBULBOHH6QkvXWRk%3D"
+                    src="https://kdvicario.blob.core.windows.net/img/karlos.png"
                     alt=""
                     className="profile-image"
                     width={175}
                     height={175}
                     unoptimized={true}
                     placeholder="blur"
-                    blurDataURL="https://kdvicariostorage.blob.core.windows.net/images/karlos-blur.png"
+                    blurDataURL="https://kdvicario.blob.core.windows.net/img/karlos-blur.png"
                   />
                 </div>
                 <div
