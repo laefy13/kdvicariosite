@@ -1,10 +1,6 @@
-'use client';
 import '/public/css/resume.css';
 import Title from './title';
 import Skill from './skill';
-import { useInView } from 'react-intersection-observer';
-import { motion, useAnimation } from 'framer-motion';
-import { useEffect } from 'react';
 import Info from './info';
 
 export default function Resume() {
@@ -156,6 +152,47 @@ export default function Resume() {
         <div className="info-container">
           <div className="info-title">
             <Title
+              title="Self Projects"
+              size={4}
+              mb={7}
+              additional="text-left"
+              color="white"
+              id="projects"
+            />
+          </div>
+          <Info>
+            <Title title="YtSpot" size={3} mb={1} color="white" />
+
+            <p>
+              A self project that used Angular for frontend and Django for
+              backend for mixing Youtube and Spotify playlists
+              <br />
+              <a
+                href="https://zealous-bay-0c9670c00.5.azurestaticapps.net/"
+                target="_blank"
+              >
+                https://zealous-bay-0c9670c00.5.azurestaticapps.net/
+              </a>
+            </p>
+          </Info>
+          <Info>
+            <Title title="TaskManagement" size={3} mb={1} color="white" />
+
+            <p>
+              Another self project that used NodeJS, HTML, JavaScript and CSS
+              <br />
+              <a
+                href="https://task-management-sys.azurewebsites.net/"
+                target="_blank"
+              >
+                https://task-management-sys.azurewebsites.net/
+              </a>
+            </p>
+          </Info>
+        </div>
+        <div className="info-container">
+          <div className="info-title">
+            <Title
               title="Education"
               size={4}
               mb={7}
@@ -205,9 +242,17 @@ export default function Resume() {
                 mb={1}
                 color="black"
               />
-              2020-Present
-              <li>GPA Average of 1.39 </li>
-              <li>Latest 1.38, 4th year 1st Semester</li>
+              2020-2024
+              <li>GPA Average of 1.376</li>
+              <li>
+                <a
+                  href="https://kdvicario.blob.core.windows.net/img/Screenshot_11.png"
+                  className="underline"
+                  target="_blank"
+                >
+                  Graduation Certificate of Candidacy
+                </a>
+              </li>
             </div>
           </Info>
         </div>
@@ -235,8 +280,17 @@ export default function Resume() {
                 />
               </div>
             </div>
-            <Skill title="C, C++, Java" percentage={45} color="blue" />
-            <Skill title="HTML, CSS, PHP, JS" percentage={60} color="blue" />
+            <Skill
+              title="Web scraping with Selenium"
+              percentage={60}
+              color="blue"
+            />
+            <Skill title="C, C++, Java" percentage={40} color="blue" />
+            <Skill
+              title="HTML, CSS, PHP, JS, Node"
+              percentage={60}
+              color="blue"
+            />
             <Skill title="Laravel and React JS" percentage={60} color="blue" />
             <Skill title="Next JS and Django" percentage={50} color="blue" />
             <Skill

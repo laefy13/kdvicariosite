@@ -11,7 +11,7 @@ import Loading from './modules/loading';
 import TypingEffect from './modules/typewriter';
 
 const Resume = dynamic(() => import('./modules/resume'));
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import NavBar from './modules/navBar';
 
 export default function Page() {
@@ -68,14 +68,12 @@ export default function Page() {
                   }`}
                 >
                   <Image
-                    src="https://kdvicario.blob.core.windows.net/img/karlos.png"
+                    src="https://kdvicario.blob.core.windows.net/img/karlos_.png"
                     alt=""
                     className="profile-image"
                     width={175}
                     height={175}
                     unoptimized={true}
-                    placeholder="blur"
-                    blurDataURL="https://kdvicario.blob.core.windows.net/img/karlos-blur.png"
                   />
                 </div>
                 <div
@@ -98,8 +96,8 @@ export default function Page() {
                 </div>
 
                 <p className={`${isMainMobile ? 'hidden' : ''}`}>
-                  Future Computer Science graduate with knowledge of various
-                  programming languages such as Python PHP, JS and etc. Willing
+                  Grad-Waiting Computer Science with knowledge of various
+                  programming languages such as Python, PHP, JS and etc. Willing
                   to learn new things. Fast in doing tasks and hard working. Can
                   work within a team but can also work independently. Good time
                   management. Can speak and write in English and Filipino.
@@ -123,8 +121,8 @@ export default function Page() {
                 </div>
 
                 <TypingEffect
-                  text="Future Computer Science graduate with knowledge of various
-                  programming languages such as Python PHP, JS and etc. Willing
+                  text="Grad-Waiting Computer Science with knowledge of various
+                  programming languages such as Python, PHP, JS and etc. Willing
                   to learn new things. Fast in doing tasks and hard working. Can
                   work within a team but can also work independently. Good time
                   management. Can speak and write in English and Filipino."
