@@ -332,6 +332,11 @@ export default function Resume() {
                 />
               </div>
             </div>
+            <Skill
+              title="Web scraping with Selenium"
+              percentage={60}
+              color="blue"
+            />
             <Skill title="C, C++, Java" percentage={40} color="blue" />
             <Skill
               title="HTML, CSS, PHP, JS, Node"
