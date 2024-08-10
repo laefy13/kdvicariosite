@@ -193,6 +193,47 @@ export default function Resume() {
         <div className="info-container">
           <div className="info-title">
             <Title
+              title="Self Projects"
+              size={4}
+              mb={7}
+              additional="text-left"
+              color="white"
+              id="projects"
+            />
+          </div>
+          <Info>
+            <Title title="YtSpot" size={3} mb={1} color="white" />
+
+            <p>
+              A self project that used Angular for frontend and Django for
+              backend for mixing Youtube and Spotify playlists
+              <br />
+              <a
+                href="https://zealous-bay-0c9670c00.5.azurestaticapps.net/"
+                target="_blank"
+              >
+                https://zealous-bay-0c9670c00.5.azurestaticapps.net/
+              </a>
+            </p>
+          </Info>
+          <Info>
+            <Title title="TaskManagement" size={3} mb={1} color="white" />
+
+            <p>
+              Another self project that used NodeJS, HTML, JavaScript and CSS
+              <br />
+              <a
+                href="https://task-management-sys.azurewebsites.net/"
+                target="_blank"
+              >
+                https://task-management-sys.azurewebsites.net/
+              </a>
+            </p>
+          </Info>
+        </div>
+        <div className="info-container">
+          <div className="info-title">
+            <Title
               title="Education"
               size={4}
               mb={7}
@@ -253,6 +294,17 @@ export default function Resume() {
                   Graduation Certificate of Candidacy
                 </a>
               </li>
+              2020-2024
+              <li>GPA Average of 1.376</li>
+              <li>
+                <a
+                  href="https://kdvicario.blob.core.windows.net/img/Screenshot_11.png"
+                  className="underline"
+                  target="_blank"
+                >
+                  Graduation Certificate of Candidacy
+                </a>
+              </li>
             </div>
           </Info>
         </div>
@@ -280,11 +332,6 @@ export default function Resume() {
                 />
               </div>
             </div>
-            <Skill
-              title="Web scraping with Selenium"
-              percentage={60}
-              color="blue"
-            />
             <Skill title="C, C++, Java" percentage={40} color="blue" />
             <Skill
               title="HTML, CSS, PHP, JS, Node"
