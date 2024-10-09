@@ -95,14 +95,6 @@ export default function NavBar() {
                 title="Skills"
               />
             </li>
-            <li>
-              <NavLink
-                falseFunc={setMobileMenuFalse}
-                endRef="https://kdvicario.blob.core.windows.net/img/Screenshot_11.png"
-                title="Graduation CoC"
-                target="_blank"
-              />
-            </li>
           </ul>
         </div>
       </div>

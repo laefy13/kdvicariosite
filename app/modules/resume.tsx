@@ -284,27 +284,8 @@ export default function Resume() {
                 color="black"
               />
               2020-2024
+              <li>Cum Laude</li>
               <li>GPA Average of 1.376</li>
-              <li>
-                <a
-                  href="https://kdvicario.blob.core.windows.net/img/Screenshot_11.png"
-                  className="underline"
-                  target="_blank"
-                >
-                  Graduation Certificate of Candidacy
-                </a>
-              </li>
-              2020-2024
-              <li>GPA Average of 1.376</li>
-              <li>
-                <a
-                  href="https://kdvicario.blob.core.windows.net/img/Screenshot_11.png"
-                  className="underline"
-                  target="_blank"
-                >
-                  Graduation Certificate of Candidacy
-                </a>
-              </li>
             </div>
           </Info>
         </div>
@@ -322,7 +303,7 @@ export default function Resume() {
           </div>
           <Info>
             <div>
-              <Title title="Python" size={2} mb={1} color="white" />
+              <Title title="Python and Pandas" size={2} mb={1} color="white" />
               <div
                 className={`mb-4 h-2.5 w-full rounded-full bg-gray-200 dark:bg-gray-700`}
               >
@@ -345,6 +326,13 @@ export default function Resume() {
             />
             <Skill title="Laravel and React JS" percentage={60} color="blue" />
             <Skill title="Next JS and Django" percentage={50} color="blue" />
+            <Skill
+              title="MySQL, MongoDB and MariaDB"
+              percentage={45}
+              color="blue"
+            />
+            <Skill title="Docker and Linux" percentage={50} color="blue" />
+            <Skill title="Power Bi" percentage={30} color="blue" />
             <Skill
               title="Computer Literacy (Photo editing, Video editing, making power point presentation, etc. )"
               percentage={60}

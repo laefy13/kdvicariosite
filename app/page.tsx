@@ -68,7 +68,7 @@ export default function Page() {
                   }`}
                 >
                   <Image
-                    src="https://kdvicario.blob.core.windows.net/img/karlos_.png"
+                    src="https://kdvicario.blob.core.windows.net/img/grad.jpg"
                     alt=""
                     className="profile-image"
                     width={175}
@@ -121,7 +121,8 @@ export default function Page() {
                 </div>
 
                 <TypingEffect
-                  text="Grad-Waiting Computer Science with knowledge of various
+                  text="Computer Science Graduate with Cum Laude from Polytechnic 
+                  University of the Philippines with knowledge of various
                   programming languages such as Python, PHP, JS and etc. Willing
                   to learn new things. Fast in doing tasks and hard working. Can
                   work within a team but can also work independently. Good time
