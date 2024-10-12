@@ -9,10 +9,9 @@ import TailwWindButton from './modules/tailwindButton';
 import { Suspense } from 'react';
 import Loading from './modules/loading';
 import TypingEffect from './modules/typewriter';
-
-const Resume = dynamic(() => import('./modules/resume'));
 import { motion } from 'framer-motion';
 import NavBar from './modules/navBar';
+const Resume = dynamic(() => import('./modules/resume'));
 
 export default function Page() {
   const [isMainMobile, setMainMobile] = useState(true);
@@ -96,7 +95,8 @@ export default function Page() {
                 </div>
 
                 <p className={`${isMainMobile ? 'hidden' : ''}`}>
-                  Grad-Waiting Computer Science with knowledge of various
+                  Computer Science Graduate with Cum Laude from Polytechnic
+                  University of the Philippines with knowledge of various
                   programming languages such as Python, PHP, JS and etc. Willing
                   to learn new things. Fast in doing tasks and hard working. Can
                   work within a team but can also work independently. Good time
