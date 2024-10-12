@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Karlos Profile',
   description: 'Karlos Daniel C. Vicario profile',
-  keywords: ['karlos', 'kdcv', 'daniel', 'vicario'],
+  keywords: ['karlos', 'kdcv', 'daniel', 'vicario', 'karlos daniel', 'karlos daniel vicario'],
   authors: [{ name: 'Karlos Daniel C. Vicario' }],
   openGraph: {
     title: 'Karlos Profile',
